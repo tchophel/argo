@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: nginx-container
-        image: nginx:latest
+        image: quay.io/gauravkumar9130/nginx
 
         ports:
         - containerPort: 80
